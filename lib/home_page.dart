@@ -26,29 +26,29 @@ class _HomePageState extends State<HomePage> {
               );
             },
             child: Stack(
-              children: [
-                // Gambar sebagai latar belakang
-                Image.asset(
-                  'assets/farmhouselembang.jpg', // Link ke gambar
+              // children: [
+              //   // Gambar sebagai latar belakang
+              //   Image.asset(
+              //     'assets/farmhouselembang.jpg', // Link ke gambar
      
-                ),
-                // Text di atas gambar
-                Positioned(
-                  bottom: 20.0,
-                  left: 20.0,
-                  child: Container(
-                    color: Colors.black.withOpacity(0.5),
-                    padding: const EdgeInsets.all(10.0),
-                    child: const Text(
-                      'Klik untuk Detail Liburan',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 18.0,
-                      ),
-                    ),
-                  ),
-                ),                
-              ],
+              //   ),
+              //   // Text di atas gambar
+              //   Positioned(
+              //     bottom: 20.0,
+              //     left: 20.0,
+              //     child: Container(
+              //       color: Colors.black.withOpacity(0.5),
+              //       padding: const EdgeInsets.all(10.0),
+              //       child: const Text(
+              //         'Klik untuk Detail Liburan',
+              //         style: TextStyle(
+              //           color: Colors.white,
+              //           fontSize: 18.0,
+              //         ),
+              //       ),
+              //     ),
+              //   ),                
+              // ],
             ),
           ),
           
