@@ -11,7 +11,7 @@ class DetailScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               // Bagian gambar utama
-              SizedBox(height: 10 ),
+              SizedBox(height: 15 ),
               Container(
                 // width: 80, // Mengatur lebar container agar memenuhi lebar layar
                 // height: 258, // Mengatur tinggi gambar
