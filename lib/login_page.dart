@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class MyWidget extends StatefulWidget {
+  const MyWidget({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPagetState();
+  State<MyWidget> createState() => _MyWidgetState();
 }
 
-class _LoginPagetState extends State<LoginPage> {
+class _MyWidgetState extends State<MyWidget> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
   }
 }
 
-
-class _LoginPageState extends State<LoginPage> {
-
+class LoginPage extends StatelessWidget {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
 
