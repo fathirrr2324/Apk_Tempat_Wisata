@@ -134,29 +134,6 @@ class DetailScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              // Container(
-              //   child: ListView(
-              //     scrollDirection: Axis.horizontal,
-              //     children:  <Widget>[
-              //       Container(
-              //        child:  Image.network('https://www.bing.com/images/search?view=detailV2&ccid=5mCFFoLm&id=BE909DD905540A2DA9771F05CAF1AD9AD28A754B&thid=OIP.5mCFFoLmnhD7rm98cfOxbwHaEK&mediaurl=https%3a%2f%2ft-2.tstatic.net%2ftribunnewswiki%2ffoto%2fbank%2fimages%2fFarmhouse-Lembang.jpg&exph=393&expw=700&q=farmhouse+lembang&simid=608009315237766710&FORM=IRPRST&ck=0D5495A53BB13A8B872922FC5CF53E90&selectedIndex=14&itb=0'),
-              //          decoration: BoxDecoration(
-              //                border: Border.all(color: Colors.black),
-              //                borderRadius: BorderRadius.circular(10.0),
-              //                 ),
-              //       ),
-                    
-              //       Container(
-              //          decoration: BoxDecoration(
-              //                border: Border.all(color: Colors.black),
-              //                borderRadius: BorderRadius.circular(10.0),
-              //                 ),
-              //        child:  Image.network('https://www.bing.com/images/search?view=detailV2&ccid=5mCFFoLm&id=BE909DD905540A2DA9771F05CAF1AD9AD28A754B&thid=OIP.5mCFFoLmnhD7rm98cfOxbwHaEK&mediaurl=https%3a%2f%2ft-2.tstatic.net%2ftribunnewswiki%2ffoto%2fbank%2fimages%2fFarmhouse-Lembang.jpg&exph=393&expw=700&q=farmhouse+lembang&simid=608009315237766710&FORM=IRPRST&ck=0D5495A53BB13A8B872922FC5CF53E90&selectedIndex=14&itb=0'),
-              //       ),
-
-              //     ],
-              //   ),
-              // ),
               SizedBox(height: 84,),
               
               Container(

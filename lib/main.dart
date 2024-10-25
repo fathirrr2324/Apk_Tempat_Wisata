@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'detail_screen.dart';
-import 'model/tourism_place.dart';
+
+
 // import 'login_page.dart';
 import 'home_page.dart';
 void main() => runApp(const MyApp());
