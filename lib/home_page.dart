@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'detail_screen.dart'; // Import halaman detail
 
 class HomePage extends StatelessWidget {
-  final List<int> numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+ 
   @override
   Widget build(BuildContext context) {
+     
     return Scaffold(
      appBar: AppBar(
-        title: const Text('Wisata Bandung'),
+        title: const Text('Travelya'),
+        automaticallyImplyLeading: false,
       ), 
       body: InkWell(
         onTap: () { Navigator.push(context, MaterialPageRoute(builder: (context) {
@@ -23,7 +25,7 @@ class HomePage extends StatelessWidget {
             Expanded(
             flex: 8,
             child: Image.asset(
-                    'assets/farmhouse.jpg' ),
+                    'assets/kampung_cai.jpg' ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -32,17 +34,18 @@ class HomePage extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    'Farm House Lembang',
+                    'Kampung Cai Ranca Upas',
                     style: const TextStyle(fontSize: 16.0),
                   ),
                   const SizedBox(
                     height: 10,
                   ),
-                  Text('Lembang'),
+                  Text('Rancabali'),
                 ],
               ),
             )
           ],
+          
         ),    
       ),
     ),

@@ -59,6 +59,11 @@ flutter:
   assets:
     - assets/farmhouse.jpg
     - assets/farmhouselembang.jpg
+    - assets/kampung_cai.jpg
+    - assets/detail_kampung_cai.jpg
+    - assets/detail_kampung_cai1.jpg
+    - assets/gerbang_kampung.jpg
+    - assets/gmbr.jpg
     
 
   # An image asset can refer to one or more resolution-specific "variants", see

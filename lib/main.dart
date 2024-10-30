@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'detail_screen.dart';
-
-
-// import 'login_page.dart';
+import 'login_page.dart';
 import 'home_page.dart';
 void main() => runApp(const MyApp());
 
@@ -14,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Wisata Bandung',
       theme: ThemeData(),
-            home: HomePage(),
+            home: LoginPage(),
       routes: {
         '/home': (context) => HomePage(),
         '/detail_screen': (context) => DetailScreen(),
